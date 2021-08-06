@@ -7,7 +7,6 @@ const fs = require('fs')
 const figlet = require('figlet')
 const lolcatjs = require('lolcatjs')
 const options = require('./options')
-//THANKS Tobz&Nurutomo//
 
 require('./seventz.js')
 nocache('./seventz.js', module => console.log(`'${module}' Updated!`))
