@@ -1,7 +1,5 @@
 
-exports.info = info()
-function snk() {
-    return `Syarat dan Ketentuan BOT
+             Syarat dan Ketentuan BOT
 1. Teks dan nama pengguna WhatsApp anda akan kami simpan di dalam server selama bot aktif
 2. Data anda akan di hapus ketika bot Offline
 3. Kami tidak menyimpan gambar, video, file, audio, dan dokumen yang anda kirim
