@@ -1,3 +1,5 @@
+//INDEX BY EVENT,Thanks for auto update @nurutomo//
+
 const { create, Client } = require('@open-wa/wa-automate')
 const welcome = require('./lib/welcome')
 const left = require('./lib/left')
