@@ -13,9 +13,9 @@ npm 6.xxx
 ## Install for Linux/Ubuntu
 ```
 sudo apt-get install -y git
-git clone https://github.com/rollebot/rollebot-owa
-cd rollebot-wa
-bash node .
+git clone https://github.com/rollebot/rollebot-openowa
+cd rollebot-openwa
+node .
 ```
 ## Note!
 If you want to upload this script to YouTube or your social media, please include the source!
