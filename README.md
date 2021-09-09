@@ -1,9 +1,25 @@
--👋 Hi, I’m Seventz
+<h1 align="center">RolleBot</h1>
 
--😁 I'm a student and I'm 14 years old
+## Halo semuanya! 
 
--😶 I'm interested in programming world
+Saya mencoba membuat skrip bot whatsapp menggunakan perpustakaan [open-wa](https://github.com/open-wa/wa-automate-nodejs).
 
--🗿 And I can't speak enggres
+## Persyaratan:
+```
+nodejs 14.xxx
+npm 6.xxx
+```
 
--I hope you are impressed with the project I made🙃
+## Instalasi Menggunakan Linux-Ubuntu:
+## IDK jika Anda menggunakan RDP atau lainnya. karena saya tidak pernah menggunakan
+```
+sudo apt-get install -y git
+git clone https://github.com/rollebot/rollebot-owa
+cd rollebot-wa
+bash node .
+```
+## CATATAN!
+Skrip ini dibuat untuk bot publik, jadi gunakan akun kedua untuk memindai qr dan akun utama untuk memerintahkan.
+
+## Terimakasih untuk:
+- [open-wa](https://github.com/open-wa/wa-automate-nodejs)
