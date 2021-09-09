@@ -1,5 +1,5 @@
-//CREATE BY ADITIA
-//MABAR CODM NICK GW 141-Dynamox
+// CREATED BY ADITIA
+// MABAR CODM NICK GW 141-Dynamox
 import { createReadFileSync, initGlobalVariable } from './utils/index.js'
 import StealthPlugin from 'puppeteer-extra-plugin-stealth'
 import { create, Client, decryptMedia } from '@open-wa/wa-automate'
@@ -151,7 +151,7 @@ const start = async (client = new Client()) => {
         })
 
         client.onIncomingCall(async call => {
-            // ketika seseorang menelpon nomor bot
+            // When someone calls bot
             if (!call.isGroup || !call.participants.length > 1) {
                 console.log(color('[==>>]', 'red'), `Someone is calling bot, lol~ id: ${call.peerJid}`)
                 client.sendText(call.peerJid, `MELANGGAR RULES!`)
@@ -169,7 +169,7 @@ const start = async (client = new Client()) => {
             console.log(err)
         })
 
-        // ketika seseorang masuk/keluar dari group
+        // When someone logs in/out of group
         const host = await client.getHostNumber() + '@c.us'
         client.onGlobalParticipantsChanged(async change => {
             //console.log(change)
