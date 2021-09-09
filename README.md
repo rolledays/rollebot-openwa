@@ -23,3 +23,6 @@ If you want to upload this script to YouTube or your social media, please includ
 
 ## Thanks For:
 - [open-wa](https://github.com/open-wa/wa-automate-nodejs)
+
+## Chat with me?:
+- [WhatsApp](wa.me/6281284745140)
