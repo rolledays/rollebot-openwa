@@ -1,3 +1,5 @@
+//CREATE BY ADITIA
+//MABAR CODM NICK GW 141-Dynamox
 import { createReadFileSync, initGlobalVariable } from './utils/index.js'
 import StealthPlugin from 'puppeteer-extra-plugin-stealth'
 import { create, Client, decryptMedia } from '@open-wa/wa-automate'
@@ -64,7 +66,7 @@ const start = async (client = new Client()) => {
             }
         })
 
-        // ketika seseorang mengirim pesan
+        // when someone sends a message
         client.onMessage(async message => {
             client.setPresence(true)
             client.getAmountOfLoadedMessages() // menghapus pesan cache jika sudah 3000 pesan.
@@ -123,7 +125,7 @@ const start = async (client = new Client()) => {
         // Listen saweria
         sewa.listenSaweria(client, browser).catch(e => console.log(e))
 
-        // ketika bot diinvite ke dalam group
+        // When the bot is invited to the group
         client.onAddedToGroup(async chat => {
             console.log(color('[==>>]', 'red'), `Someone is adding bot to group, lol~ groupId: ${chat.groupMetadata.id}`)
             client.getAllGroups().then((groups) => {
@@ -134,10 +136,7 @@ const start = async (client = new Client()) => {
                     client.sendText(chat.groupMetadata.id,
                         `Mohon maaf, untuk mencegah overload, group pada bot dibatasi.\n` +
                         `Total group: ${groups.length}/${groupLimit}\n` +
-                        `Chat /owner untuk sewa. harga 10k masa aktif 1 bulan.\n` //+
-                        // `Mau sewa otomatis? Buka link berikut:\n` +
-                        // `Saweria: https://saweria.co/iluser \n` +
-                        // `*Masukkan link group kalian dalam kolom "Pesan" di website saweria*`
+                        `Chat /owner untuk sewa. harga 10k masa aktif 1 bulan.\n`
                     )
                     setTimeout(() => {
                         client.leaveGroup(chat.groupMetadata.id)
