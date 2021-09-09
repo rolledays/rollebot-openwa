@@ -1,25 +1,25 @@
 <h1 align="center">RolleBot</h1>
 
-## Halo semuanya! 
+## Hi everyone! 
 
-Saya mencoba membuat skrip bot whatsapp menggunakan perpustakaan [open-wa](https://github.com/open-wa/wa-automate-nodejs).
+This bot script use lib [open-wa](https://github.com/open-wa/wa-automate-nodejs).
 
-## Persyaratan:
+## Requirements to run this script:
 ```
 nodejs 14.xxx
 npm 6.xxx
 ```
 
-## Instalasi Menggunakan Linux-Ubuntu:
-## IDK jika Anda menggunakan RDP atau lainnya. karena saya tidak pernah menggunakan
+## Install for Linux/Ubuntu
 ```
 sudo apt-get install -y git
 git clone https://github.com/rollebot/rollebot-owa
 cd rollebot-wa
 bash node .
 ```
-## CATATAN!
-Skrip ini dibuat untuk bot publik, jadi gunakan akun kedua untuk memindai qr dan akun utama untuk memerintahkan.
+## Note!
+If you want to upload this script to YouTube or your social media, please include the source!
 
-## Terimakasih untuk:
+
+## Thanks For:
 - [open-wa](https://github.com/open-wa/wa-automate-nodejs)
