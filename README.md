@@ -2,7 +2,7 @@
 
 ## Hi everyone! 
 
-This bot script use lib [open-wa](https://github.com/open-wa/wa-automate-nodejs).
+This script use lib [open-wa](https://github.com/open-wa/wa-automate-nodejs).
 
 ## Requirements to run this script:
 ```
