@@ -10,13 +10,19 @@ nodejs 14.xxx
 npm 6.xxx
 ```
 
-## Install for Linux/Ubuntu
+## Install for Windows/Vps/Rdp
 ```
-sudo apt-get install -y git
 git clone https://github.com/rollebot/rollebot-openowa
 cd rollebot-openwa
 node .
 ```
+## Install for Linux/Ubuntu
+```
+apt sudo install git
+git clone https://github.com/rollebot/rollebot-openowa
+node .
+```
+
 ## Note!
 If you want to upload this script to YouTube or your social media, please include the source!
 
